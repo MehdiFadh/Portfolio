@@ -1,2 +1,2 @@
 # Portfolio
-Site internet pour afficher tout mes projets
+Ceci est un site web qui montre tout les projets que j'ai réaliser.

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Accueil</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mon Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="projets.html">Projets</a></li>
+                    <li><a href="parcours.html">Parcours</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Fadhloune Mehdi</h2>
+            <p>Découvrez mes projets et mon parcours.</p>
+            <a href="projets.html" class="btn">Voir mes projets</a>
+        </div>
+        <div class="hero-animation"></div>
+    </section>
+
+    <script>
+        // Ajoutez des animations ou des interactions JavaScript ici si nécessaire
+        document.addEventListener('DOMContentLoaded', function() {
+            const heroContent = document.querySelector('.hero-content');
+            heroContent.classList.add('fade-in');
+        });
+    </script>
+</body>
+</html>
+
+
