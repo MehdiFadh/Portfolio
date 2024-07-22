@@ -147,6 +147,11 @@ h2 {
     height: auto;
 }
 
+.contact-img {
+    width: 300px;
+    
+}
+
 .project-details {
     padding: 1rem;
 }
@@ -167,6 +172,7 @@ footer a {
 footer a:hover {
     color: #00cc99;
 }
+
 
 /* Animations */
 @keyframes fadeIn {
@@ -189,3 +195,4 @@ footer a:hover {
     50% { opacity: 1; }
     100% { opacity: 0.4; }
 }
+
